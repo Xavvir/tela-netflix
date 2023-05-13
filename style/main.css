@@ -12,6 +12,7 @@
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 
 }
 
@@ -37,4 +38,28 @@ header nav a{
 
 header nav a:hover{
     color: #ffffff;
+}
+
+/*Filme principal*/
+
+.filme-principal {
+    font-size: 17px;
+    background:local linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/capa.jpg)50%;
+
+    height: 900px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 50px;
+    
 }
