@@ -44,22 +44,57 @@ header nav a:hover{
 
 .filme-principal {
     font-size: 17px;
-    background:local linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/capa.jpg)50%;
+    background:local linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/capa.jpg) 100%;
 
-    height: 900px;
+    height: 350px;
     background-size: cover;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    
 }
 
 .filme-principal .descricao{
+    margin-top: 20px;
     margin-bottom: 40px;
+    margin-left: 10px;
+
 }
 
 .titulo{
+    margin-top: 10%;
     font-size: 50px;
-    
+    font-family: 'Trebuchet MS';
+    margin-left: 10px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    cursor:pointer;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-left: 10px;
+
+    transition:.10s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 15px;
+}
+
+.filme-principal .container{
+    width: 60%;
+    min-height: auto;
+    min-width: auto;
 }
